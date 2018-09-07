@@ -1,0 +1,9 @@
+# Python challenge 07-sep-2018
+# Write a program to accept a year from the user and check whether it is a leap year.
+
+print('What is the year?')
+year = int(input())
+if ((year % 4) == 0 and (year % 100) != 0) or year % 400 == 0:
+    print('is a leap year.')
+else:
+    print('is not a leap year.')
